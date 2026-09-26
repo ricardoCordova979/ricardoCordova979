@@ -19,7 +19,7 @@ y los implemento tanto en **R** como en **Python**, verificando que ambas versio
 |---|---|---|---|
 | **Qué determina el precio de una vivienda en Seattle** | Modelo que explica el 62 % de la variación del precio de 5,000 viviendas y cuantifica el efecto de cada característica. | Regresión lineal múltiple, ANOVA tipo II, Breusch-Pagan, HC3 · R y Python | [Ver proyecto](https://ricardocordova979.github.io/regresion-lineal-precio-viviendas/) · [Código](https://github.com/ricardoCordova979/regresion-lineal-precio-viviendas) |
 | **Qué predice que una persona tenga hijos** | Modelo de clasificación con AUC de 0.81 que identifica los factores sociodemográficos de la paternidad y compara modelos logísticos y regularizados. | Regresión logística, stepwise AIC/BIC, validación cruzada, LASSO/Ridge/Elastic Net · R y Python | [Ver proyecto](https://ricardocordova979.github.io/regresion-logistica-paternidad/) · [Código](https://github.com/ricardoCordova979/regresion-logistica-paternidad) |
-
+| **Cuatro reglas para predecir quién tiene hijos** | Árbol de clasificación que segmenta a la población en 4 grupos (del 15 % al 86 % con hijos), podado con validación cruzada y comparado con regresión logística. | Árboles CART, poda por complejidad de coste, regla 1-SE, AUC/Kappa · R y Python (réplica propia de rpart) | [Ver proyecto](https://ricardocordova979.github.io/arboles-clasificacion-paternidad/) · [Código](https://github.com/ricardoCordova979/arboles-clasificacion-paternidad) |
 
 ## Contacto
 
